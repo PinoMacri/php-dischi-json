@@ -22,12 +22,12 @@
 
             <div class="container d-flex flex-wrap justify-content-between">
 
-                <div v-for="(disc, i) in discs" :key="i" class="disc text-center">
+                <div v-for="(disc, i) in discs" :key="i" class="disc text-center p-4">
                     <ul class="card-disc">
                         <li><img :src="disc.poster" alt=""></li>
-                        <li>{{disc.title}}</li>
+                        <li class="important">{{disc.title}}</li>
                         <li>{{disc.author}}</li>
-                        <li>{{disc.year}}</li>
+                        <li class="important">{{disc.year}}</li>
                     </ul>
                 </div>
             </div>

@@ -18,18 +18,23 @@ main {
 
 li {
     list-style-type: none;
-}
-
-div {
-    border: 1px solid white;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 .disc {
     width: 30%;
     margin: 20px;
+    background-color: #112030;
+    border-radius: 10px;
 }
 
 
 .card-disc li img {
     width: 300px;
+}
+
+.important {
+    font-weight: bold;
+    font-size: 20px;
 }
