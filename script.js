@@ -4,7 +4,8 @@ const app = createApp({
         return {
             discs: [],
         }
-    }, created() {
+    },
+    created() {
         axios.get("http://localhost/php-dischi-json/index.php").then((response) => {
             this.discs = response.data;
         }

@@ -1,0 +1,17 @@
+body {
+    color: red;
+}
+
+header {
+    background-color: #06131F;
+    height: 100px;
+}
+
+header img {
+    width: 50px;
+    margin-left: 200px;
+}
+
+main {
+    background-color: #1D2D3C;
+}
