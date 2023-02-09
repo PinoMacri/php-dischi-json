@@ -20,15 +20,14 @@
         </header>
         <main>
 
-            <div class="container">
+            <div class="container d-flex flex-wrap justify-content-between">
 
-                <div v-for="(disc, i) in discs" :key="i">
-                    <ul>
+                <div v-for="(disc, i) in discs" :key="i" class="disc text-center">
+                    <ul class="card-disc">
+                        <li><img :src="disc.poster" alt=""></li>
                         <li>{{disc.title}}</li>
                         <li>{{disc.author}}</li>
                         <li>{{disc.year}}</li>
-                        <li>{{disc.genre}}</li>
-                        <li>{{disc.poster}}</li>
                     </ul>
                 </div>
             </div>

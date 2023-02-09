@@ -1,5 +1,5 @@
 body {
-    color: red;
+    color: white;
 }
 
 header {
@@ -14,4 +14,22 @@ header img {
 
 main {
     background-color: #1D2D3C;
+}
+
+li {
+    list-style-type: none;
+}
+
+div {
+    border: 1px solid white;
+}
+
+.disc {
+    width: 30%;
+    margin: 20px;
+}
+
+
+.card-disc li img {
+    width: 300px;
 }
